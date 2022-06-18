@@ -178,3 +178,72 @@ footer {
     display: flex;
     margin-bottom: 32px;
 }
+
+
+/* 
+
+PHONES, TABLETS, ETC  
+
+*/
+@media (max-width: 728px) {
+    .row{
+        flex-direction: column;
+    }
+
+    .home_description {
+        margin-bottom: 24px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 60px;
+    }
+
+    .subheader {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .home_description--button {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+   .links_nav {
+    display: none;
+   }
+
+    .section__description {
+        flex-direction: column;
+    }
+
+    .section__description--wrapper {
+        width: 100%;
+    }
+
+    .about__image--wrapper {
+        width: 90%;
+    }
+
+    #discord .section__description{
+        flex-direction: column-reverse;
+    }
+
+    #contact {
+        padding: 0 18px;
+    }
+
+
+    .footer__logo {
+        max-width: 75%;
+    }
+
+    .footer_links {
+        padding: 0 8px;
+        font-size: 18px;
+    }
+
+
+}
